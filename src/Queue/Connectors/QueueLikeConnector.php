@@ -1,6 +1,7 @@
 <?php
 namespace LaravelQueueLike\Queue\Connectors;
 
+use Illuminate\Support\Arr;
 use Illuminate\Queue\Connectors\DatabaseConnector;
 use LaravelQueueLike\Queue\DatabaseQueue;
 

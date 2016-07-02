@@ -2,6 +2,9 @@
 namespace LaravelQueueLike\Queue;
 
 use Illuminate\Queue\DatabaseQueue as OriginalDatabaseQueue;
+use Carbon\Carbon;
+use Illuminate\Support\Collection;
+use Illuminate\Database\Query\Expression;
 
 class DatabaseQueue extends OriginalDatabaseQueue
 {
