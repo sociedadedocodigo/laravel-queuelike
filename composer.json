@@ -1,0 +1,20 @@
+{
+    "name": "sociedadedocodigo/laravel-queuelikel",
+    "require": {
+        "illuminate/queue": "5.2.*",
+        "illuminate/support": "5.2.*"
+    },
+    "authors": [
+        {
+            "name": "Leidison Siqueira Barbosa",
+            "email": "leidison.sb@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0":
+        {
+            "LaravelQueueLike\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
